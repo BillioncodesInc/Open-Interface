@@ -190,6 +190,9 @@ Open Interface
 
 </details>
 
+Open Interface is distributed under the terms of the [GNU GPL‑v3](LICENSE.md).
+This software comes **without any warranty**; use it at your own risk.
+
 <hr>
 
 ### <ins>Stuff It’s Error-Prone At, For Now</ins> 😬
