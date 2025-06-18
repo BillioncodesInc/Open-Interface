@@ -137,7 +137,7 @@ class UI:
                 self.browser_combobox.set(settings_dict['default_browser'])
             if 'play_ding_on_completion' in settings_dict:
                 self.play_ding.set(1 if settings_dict['play_ding_on_completion'] else 0)
-            if 'custom_llm_instructions':
+            if 'custom_llm_instructions' in settings_dict:
                 self.llm_instructions_text.insert('1.0', settings_dict['custom_llm_instructions'])
             self.theme_combobox.set(settings_dict.get('theme', 'superhero'))
 
