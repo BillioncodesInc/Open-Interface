@@ -93,4 +93,5 @@ class Core:
             print('\a')
 
     def cleanup(self):
-        self.llm.cleanup()
+        if self.llm:
+            self.llm.cleanup()
