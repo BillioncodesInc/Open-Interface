@@ -5,7 +5,7 @@ import tempfile
 
 import pyautogui
 from PIL import Image
-from utils.settings import Settings
+from .settings import Settings
 
 
 class Screen:
